@@ -9,18 +9,18 @@ import Footer from "./components/Footer/Footer";
 const Hero = lazy(() => import("./components/Hero/Hero"));
 const ShopCategory = lazy(() => import("./components/Shop/Shop"));
 const Testimonials = lazy(() => import("./components/Testimonials/Testimonials"));
-const Contact = lazy(() => import("./Page/Contact/Contact"));
+const Contact = lazy(() => import("./Pages/Contact/Contact.js"));
 const AboutSection = lazy(() => import("./components/AboutSection/About"));
 const Category = lazy(() => import("./components/Category/Category"));
 
-const Catalog = lazy(() => import("./Page/Catalog/Catalog"));
+const Catalog = lazy(() => import("./Pages/Catalog/Catalog.js"));
 const Product = lazy(() => import("./Demo.jsx"));
 
 // ✅ FIXED HERE
 const Products = lazy(() => import("./components/Product/ProductPage.jsx"));
 
-const Cart = lazy(() => import("./Page/Cart/Cart.jsx"));
-const KnowUs = lazy(() => import("./Page/KnowUs/KnowUs.jsx"));
+const Cart = lazy(() => import("./Pages/Cart/Cart.js"));
+const KnowUs = lazy(() => import("./Pages/KnowUs/KnowUs.jsx"));
 
 // 🏠 HOME PAGE
 const Home = () => (
