@@ -18,7 +18,7 @@ const Category = lazy(() => import("./components/Category/Category"));
 
 const Catalog = lazy(() => import("./Page/Catalog/Catalog"));
 const Product = lazy(() => import("./Demo.jsx")); 
-const Products = lazy(() => import("../src/Page/Product/Product.jsx")); // Adjusted to match your file structure
+const Products = lazy(() => import("./Page/Product/ProductPage.jsx")); // Adjusted to match your file structure
 const Cart = lazy(() => import("./Page/Cart/Cart.jsx"));
 const KnowUs = lazy(() => import("./Page/KnowUs/KnowUs.jsx"));
 
