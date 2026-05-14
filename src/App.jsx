@@ -18,8 +18,8 @@ const Category = lazy(() => import("./components/Category/Category"));
 
 const Catalog = lazy(() => import("./Page/Catalog/Catalog"));
 const Product = lazy(() => import("./Page/Product/Product")); 
-const Products = lazy(() => import("./Page/Product/Products")); // Adjusted to match your file structure
-const Cart = lazy(() => import("./Page/cart/Cart"));
+const Products = lazy(() => import("./Page/Product/Product")); // Adjusted to match your file structure
+const Cart = lazy(() => import("./Page/Cart/Cart"));
 const KnowUs = lazy(() => import("./Page/KnowUs/KnowUs"));
 
 // 🏠 HOME PAGE (Composed of lazy-loaded sections)
