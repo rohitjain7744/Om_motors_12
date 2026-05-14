@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./Hero.css";
 
-import v1 from "../../assets/video1.mp4";
-import v2 from "../../assets/video2.mp4";
-import v3 from "../../assets/video3.mp4";
+import v1 from "../../assets/hero1.jpg";
+import v2 from "../../assets/hero2.jpg";
+import v3 from "../../assets/hero3.jpg";
 
 const slides = [
   {
