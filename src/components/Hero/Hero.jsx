@@ -148,11 +148,13 @@ export default function Hero() {
           <p className="hero-sub">{current.subtitle}</p>
 
           <div className="hero-actions">
-            <button className="btn-primary">
+            <button className="btn-primary" href="/catalog">
               Book Harvester
               <span className="btn-arrow">→</span>
             </button>
-            <button className="btn-ghost">Watch Story</button>
+            <button className="btn-ghost" href="/products">
+              Our Product
+            </button>
           </div>
         </div>
       </div>
